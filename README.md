@@ -1,2 +1,2 @@
 # Web Development Portfolio
-This is my [web development portfolio](https://www.andrew-c.dev).
+This is my [web development portfolio](https://www.andrew-c.dev). It's still a work in progress. My intention is for this project to be open source, to give you an idea of what my code looks like and how I like to structure things.
