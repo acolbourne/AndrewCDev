@@ -1,5 +1,10 @@
+'use client';
+
 // -> Imports -> Libraries
 import React from 'react';
+
+// -> Imports -> Components
+import Typewriter from 'typewriter-effect';
 
 // -> Imports -> Constants
 import { websiteDescription, websiteName } from '@/constants';
@@ -10,11 +15,33 @@ const Header: React.FC = ( ) => {
 
         <>
 
+            <div className="absolute top-0 left-0 w-full h-[50%] bg-gradient-to-br from-purple-400 to-black rounded-md filter blur-3xl opacity-20" />
+
             <header className="px-2 md:px-0 max-w-3xl my-10 mx-auto">
 
-                <h1 className="text-5xl md:text-7xl font-semibold bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">{ websiteName }</h1>
+                <h1 className="text-5xl md:text-7xl font-semibold bg-gradient-to-b from-slate-200 to-slate-400 bg-clip-text text-transparent">{ websiteName }.</h1>
 
-                <h3 className="text-3xl md:text-4xl font-light">{ websiteDescription }</h3>
+                <h3 className="text-3xl md:text-4xl font-light">
+                    
+                <Typewriter options={ {
+
+                    strings: [ 
+                        
+                        'Freelance web developer.',
+                        'Builder of useful apps.',
+                        'User of overused visual effects.',
+                        'Generator of ideas.',
+                        'Drinker of coffee.',
+                        'Connoisseur of lofty titles.'
+
+                    ],
+                    autoStart: true,
+                    loop: true,
+
+                } }
+                />
+                    
+                </h3>
 
             </header>
         

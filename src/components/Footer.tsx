@@ -14,13 +14,13 @@ const Footer: React.FC = ( ) => {
 
         <>
 
-            <footer className="py-10 px-2 md:px-0 max-w-3xl my-10 mx-auto border-t">
+            <footer className="py-10 px-2 md:px-0 max-w-3xl my-10 mx-auto md:border-t">
 
                 <div className="text-center justify-center flex space-x-2">
 
-                    <p>View source:</p>
+                    <p className="z-50">View source:</p>
 
-                    <Link href={ websiteGithubLink }>
+                    <Link href={ websiteGithubLink } className="z-50">
                         
                         <Github />
 
