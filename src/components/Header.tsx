@@ -15,13 +15,13 @@ const Header: React.FC = ( ) => {
 
         <>
 
-            <div className="absolute top-0 left-0 w-full h-[50%] bg-gradient-to-br from-purple-400 to-black rounded-md filter blur-3xl opacity-20" />
+            <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-br from-purple-400 to-black rounded-md filter blur-3xl opacity-20" />
 
             <header className="px-2 md:px-0 max-w-3xl my-10 mx-auto">
 
                 <h1 className="text-5xl md:text-7xl font-semibold bg-gradient-to-b from-slate-200 to-slate-400 bg-clip-text text-transparent drop-shadow-sm">{ websiteName }.</h1>
 
-                <h3 className="text-3xl md:text-4xl font-light">
+                <h3 className="text-3xl md:text-4xl text-white">
                     
                 <Typewriter options={ {
 
