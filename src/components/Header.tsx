@@ -32,7 +32,7 @@ const Header: React.FC = ( ) => {
                         'User of overused visual effects.',
                         'Generator of (mainly average) ideas.',
                         'Drinker of coffee.',
-                        'Cracker of bad jokes',
+                        'Cracker of bad jokes.',
                         'Man of limited taste.',
                         'Connoisseur of lofty titles.'
 
