@@ -15,7 +15,7 @@ const Header: React.FC = ( ) => {
 
         <>
 
-            <div className="absolute top-0 left-0 w-full h-96 bg-gradient-to-br from-purple-400 to-black rounded-md filter blur-3xl opacity-20" />
+            <div className="absolute top-0 left-0 w-full h-[50%] bg-gradient-to-br from-purple-400 to-black rounded-md filter blur-3xl opacity-20" />
 
             <header className="px-2 md:px-0 max-w-3xl my-10 mx-auto">
 
