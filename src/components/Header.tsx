@@ -25,7 +25,7 @@ const Header: React.FC = ( ) => {
 
                     strings: [ 
                         
-                        'Freelance dev.',
+                        'Developer.',
                         'Builder of useful apps.',
                         'User of overused visual effects.',
                         'Generator of (mainly average) ideas.',
