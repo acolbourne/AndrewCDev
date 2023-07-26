@@ -14,7 +14,7 @@ const Footer: React.FC = ( ) => {
 
         <>
 
-            <footer className="py-10 px-2 md:px-0 max-w-3xl my-10 mx-auto md:border-t">
+            <footer className="py-10 px-2 md:px-0 max-w-3xl my-10 mx-auto">
 
                 <div className="text-center justify-center flex space-x-2">
 

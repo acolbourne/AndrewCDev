@@ -4,5 +4,5 @@
 ::-webkit-scrollbar-thumb:hover { background: #555555; }
 
 body {
-    @apply bg-black text-white;
+    @apply bg-slate-800 text-white;
 }

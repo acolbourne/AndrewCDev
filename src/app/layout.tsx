@@ -32,7 +32,7 @@ export default function RootLayout ( { children }: { children: React.ReactNode }
         
         <html lang="en">
             
-            <body className={ cn ( "bg-black", OpenSans.className ) }>
+            <body className={ cn ( OpenSans.className ) }>
                 
                 { children }
                 
