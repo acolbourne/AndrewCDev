@@ -30,9 +30,9 @@ export default function RootLayout ( { children }: { children: React.ReactNode }
 
         <>
         
-        <html lang="en">
+        <html lang="en" className="scroll-smooth">
             
-            <body className={ cn ( OpenSans.className ) }>
+            <body className={ cn ( "blueprint", OpenSans.className ) }>
                 
                 { children }
                 

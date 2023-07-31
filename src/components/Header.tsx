@@ -1,13 +1,15 @@
-'use client';
-
 // -> Imports -> Libraries
 import React from 'react';
+import Link from 'next/link';
 
 // -> Imports -> Components
-import Typewriter from 'typewriter-effect';
+import { Button } from './ui/button';
 
 // -> Imports -> Constants
-import { websiteName } from '@/constants';
+import { websiteName, pageContact } from '@/constants';
+
+// -> Imports -> Icons
+import { Pencil } from 'lucide-react';
 
 const Header: React.FC = ( ) => {
 
@@ -15,33 +17,29 @@ const Header: React.FC = ( ) => {
 
         <>
 
-            <header className="px-2 md:px-0 max-w-3xl my-10 mx-auto">
+            <header className="max-w-7xl mx-auto pt-5 px-2">
 
-                <h1 className="text-5xl md:text-7xl font-semibold bg-gradient-to-b from-slate-200 to-slate-400 bg-clip-text text-transparent drop-shadow-sm">{ websiteName }.</h1>
+                <div className="hidden sm:flex sm:flex-grow justify-center sm:justify-end items-center space-x-3">
 
-                <h3 className="text-3xl md:text-4xl text-white z-50">
+                    <Link href="/">
+    
+                        <Button variant="link">Home</Button>
                     
-                <Typewriter options={ {
+                    </Link>
 
-                    strings: [ 
+                    <Link href="#Projects">
                         
-                        'Developer.',
-                        'Builder of useful apps.',
-                        'User of overused visual effects.',
-                        'Generator of (mainly average) ideas.',
-                        'Drinker of coffee.',
-                        'Cracker of bad jokes.',
-                        'Man of limited taste.',
-                        'Connoisseur of lofty titles.'
+                        <Button variant="holo">My Projects</Button>
 
-                    ],
-                    autoStart: true,
-                    loop: true,
-
-                } }
-                />
+                    </Link>
                     
-                </h3>
+                    <Link href={ pageContact }>
+                    
+                        <Button variant="orange"><span>Work with me</span> <Pencil className="w-5 h-5" /></Button>
+
+                    </Link>
+
+                </div>
 
             </header>
         

@@ -17,7 +17,10 @@ const buttonVariants = cva(
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
+        link: "text-white underline-offset-4 hover:underline",
+        orange: "bg-orange-600 border border-orange-500 text-white px-10 py-4 shadow-md rounded-md font-bold my-3 hover:shadow-xl active:scale-90 transition duration-150 space-x-2",
+        holo: "bg-blue-100/20 border-2 border-white px-10 py-4 shadow-md rounded-md font-bold my-3 hover:shadow-xl active:scale-90 transition duration-150 space-x-2",
+        clickEffect: "font-semibold my-3 active:scale-90 transition duration-150"
       },
       size: {
         default: "h-10 px-4 py-2",
