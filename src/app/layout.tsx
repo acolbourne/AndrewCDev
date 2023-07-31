@@ -32,7 +32,7 @@ export default function RootLayout ( { children }: { children: React.ReactNode }
         
         <html lang="en" className="scroll-smooth">
             
-            <body className={ cn ( "blueprint", OpenSans.className ) }>
+            <body className={ cn ( "blueprint text-white", OpenSans.className ) }>
                 
                 { children }
                 
