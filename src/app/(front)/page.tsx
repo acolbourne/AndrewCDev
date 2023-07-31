@@ -20,7 +20,7 @@ const Homepage: NextPage = ( ) => {
             
             <HeroSection />
 
-            <main className="max-w-2xl mx-auto px-6 mt-10 space-y-2 relative">
+            <main className="max-w-2xl mx-auto px-6 mt-10 space-y-24 relative">
 
                 <AboutMe />
                 
@@ -28,9 +28,11 @@ const Homepage: NextPage = ( ) => {
                 
                 <section id="Projects">
                     
-                    <h4 className="text-2xl font-semibold pb-10">My projects:</h4>
+                    <h4 className="text-3xl font-normal">My projects:</h4>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 space-x-4 max-sm:space-y-8">
+                    <p className="text-sm font-thin text-justify pb-6">A few of the things I've been working on.</p>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2">
 
                         { projectCards.map ( ( item ) => ( 
                             

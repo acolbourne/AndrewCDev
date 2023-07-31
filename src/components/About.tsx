@@ -10,9 +10,9 @@ const AboutMe: React.FC = ( ) => {
 
             <section id="About-Me">
 
-                <h4 className="text-2xl font-semibold">About Me:</h4>
+                <h4 className="text-3xl font-normal pb-4">About Me:</h4>
 
-                <p className="text-md font-thin text-justify pb-10">
+                <p className="text-md font-thin text-justify leading-9">
 
                     My name is Andrew. My love of web and software development started when I was very young
                     and I played around with PHP and MySQL and put together a few projects. Ever since then,

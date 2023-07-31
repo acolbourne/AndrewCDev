@@ -13,7 +13,7 @@ const ProjectCard = ( { image, title, description, technologies, buttonLink, but
 
         <>
 
-            <Card className="bg-blue-200/20 shadow-md cursor-pointer hover:scale-105 hover:opacity-90 transform transition duration-300 ease-out">
+            <Card className="bg-blue-200/20 shadow-md cursor-pointer hover:scale-105 hover:opacity-90 transform transition duration-300 ease-out mb-6 md:mr-3">
 
                 <CardHeader className="relative mb-7 h-80 sm:h-56">
                     

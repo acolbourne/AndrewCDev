@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { Button } from './ui/button';
 
 // -> Imports -> Constants
-import { websiteName, pageContact } from '@/constants';
+import { pageContact } from '@/constants';
 
 // -> Imports -> Icons
 import { Pencil } from 'lucide-react';
@@ -17,8 +17,8 @@ const Header: React.FC = ( ) => {
 
         <>
 
-            <header className="max-w-7xl mx-auto pt-5 px-2">
-
+            <header className="flex max-w-7xl mx-auto pt-5 px-2">
+            
                 <div className="hidden sm:flex sm:flex-grow justify-center sm:justify-end items-center space-x-3">
 
                     <Link href="/">
