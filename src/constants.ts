@@ -2,7 +2,7 @@
 export const websiteName: string = "Andrew Colbourne";
 export const websiteDescription: string = "Freelance dev.";
 export const websiteGithubLink: string = "https://github.com/acolbourne/AndrewCDev";
-export const websiteIcon: string = "/images/logo.png";
+export const websiteIcon: string = "/images/favicon.ico";
 
 // -> Constants -> Pages
 export const pageContact: string = "https://www.andrew-c.me/contact";
