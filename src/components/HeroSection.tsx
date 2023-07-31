@@ -9,6 +9,9 @@ import Typewriter from 'typewriter-effect';
 import { Button } from './ui/button';
 import { Separator } from './ui/separator';
 
+// -> Imports -> Constants
+import { pageContact } from '@/constants';
+
 // -> Imports -> Icons
 import { Pencil } from 'lucide-react';
 
@@ -55,8 +58,12 @@ const HeroSection = ( ) => {
                             <Button variant="holo">My Projects</Button>
                         
                         </Link>
+                        
+                        <Link href={ pageContact } target="_blank">
 
-                        <Button variant="orange"><span>Work with me</span> <Pencil className="w-5 h-5" /></Button>
+                            <Button variant="orange"><span>Work with me</span> <Pencil className="w-5 h-5" /></Button>
+
+                        </Link>
 
                     </div>
 

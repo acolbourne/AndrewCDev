@@ -33,7 +33,7 @@ const Header: React.FC = ( ) => {
 
                     </Link>
                     
-                    <Link href={ pageContact }>
+                    <Link href={ pageContact } target="_blank">
                     
                         <Button variant="orange"><span>Work with me</span> <Pencil className="w-5 h-5" /></Button>
 
