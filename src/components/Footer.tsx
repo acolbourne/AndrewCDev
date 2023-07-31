@@ -29,7 +29,7 @@ const Footer: React.FC = ( ) => {
 
                     <p className="z-50">View source:</p>
 
-                    <Link href={ websiteGithubLink } className="z-50">
+                    <Link href={ websiteGithubLink } target="_blank" className="z-50">
                         
                         <Github />
 
