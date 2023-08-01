@@ -21,7 +21,7 @@ const Header: React.FC = ( ) => {
 
                 <div className="hidden sm:flex items-center">
 
-                    <h1 className="font-light text-4xl">{ websiteInitials }</h1>
+                    <h1 className="font-semibold text-4xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1.0)]">{ websiteInitials }</h1>
 
                 </div>
 
