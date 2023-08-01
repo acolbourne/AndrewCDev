@@ -1,5 +1,6 @@
 // -> Constants -> Website
 export const websiteName: string = "Andrew Colbourne";
+export const websiteInitials: string = "AC";
 export const websiteDescription: string = "Freelance dev.";
 export const websiteGithubLink: string = "https://github.com/acolbourne/AndrewCDev";
 export const websiteIcon: string = "/images/favicon.ico";
@@ -19,4 +20,4 @@ export const projectCards = [
         buttonText: "Visit My Blog", 
     }
 
-]
+] as const;
