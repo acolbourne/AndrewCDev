@@ -59,7 +59,7 @@ const HeroSection = ( ) => {
                         
                         </Link>
                         
-                        <Link href={ pageContact } target="_blank">
+                        <Link href={ pageContact }>
 
                             <Button variant="orange"><span>Work with me</span> <Pencil className="w-5 h-5" /></Button>
 
